@@ -526,7 +526,7 @@ footer::before {
     
     <main class="main-content">
         <nav class="breadcrumb">
-            <a href="https://www.umt6174.site/" class="breadcrumb-link" target="_blank">Home</a>
+            <a href="https://www.umt6174.site/" class="breadcrumb-link" target="_top">Home</a>
             <span class="breadcrumb-arrow">›</span>
             <div class="dropdown" id="umtDropdown">
                 <span class="dropdown-toggle">
@@ -534,13 +534,13 @@ footer::before {
                     <span class="dropdown-arrow">▼</span>
                 </span>
                 <div class="dropdown-menu">
-                        <a href="https://www.umt6174.site/" class="dropdown-item" target="_blank">Home</a>
-                        <a href="https://lab.umt6174.site/umt-lab" class="dropdown-item" target="_blank">UMT Lab</a>
-                        <a href="https://sites.google.com/view/banksoalumt6174/bank-soal-umt" class="dropdown-item" target="_blank">Bank Soal UMT</a>
-                        <a href="https://www.umt6174.site/materi-belajar" class="dropdown-item" target="_blank">Materi Pembelajaran</a>
-                        <a href="https://sites.google.com/view/videopembelajaranumt/video-pembelajaran-umt" class="dropdown-item" target="_blank">Video Pembelajaran</a>
-                        <a href="https://www.umt6174.site/tryout-umt" class="dropdown-item" target="_blank">Tryout</a>
-                        <a href="https://www.umt6174.site/tanya-umt" class="dropdown-item" target="_blank">TanyaUMT</a>
+                        <a href="https://www.umt6174.site/" class="dropdown-item" target="_top">Home</a>
+                        <a href="https://lab.umt6174.site/umt-lab" class="dropdown-item" target="_top">UMT Lab</a>
+                        <a href="https://sites.google.com/view/banksoalumt6174/bank-soal-umt" class="dropdown-item" target="_top">Bank Soal UMT</a>
+                        <a href="https://www.umt6174.site/materi-belajar" class="dropdown-item" target="_top">Materi Pembelajaran</a>
+                        <a href="https://sites.google.com/view/videopembelajaranumt/video-pembelajaran-umt" class="dropdown-item" target="_top">Video Pembelajaran</a>
+                        <a href="https://www.umt6174.site/tryout-umt" class="dropdown-item" target="_top">Tryout</a>
+                        <a href="https://www.umt6174.site/tanya-umt" class="dropdown-item" target="_top">TanyaUMT</a>
                 </div>
             </div>
         </nav>
@@ -571,12 +571,12 @@ footer::before {
         <div class="footer-section">
             <h3>Produk UMT</h3>
             <ul>
-                <li><a href="https://www.umt6174.site/umt-lab">UMT Lab</a></li>
-                <li><a href="https://www.umt6174.site/materi-belajar">Materi Pembelajaran</a></li>
-                <li><a href="https://www.umt6174.site/video-pembelajaran">Video Pembelajaran</a></li>
-                <li><a href="https://www.umt6174.site/tryout-umt">Tryout</a></li>
-                <li><a href="https://www.umt6174.site/tanya-umt">TanyaUMT</a></li>
-                <li><a href="https://sites.google.com/view/banksoalumt6174/bank-soal-umt">Bank Soal</a></li>
+                <li><a href="https://www.umt6174.site/umt-lab" target:"_top">UMT Lab</a></li>
+                <li><a href="https://www.umt6174.site/materi-belajar" target:"_top">Materi Pembelajaran</a></li>
+                <li><a href="https://www.umt6174.site/video-pembelajaran" target:"_top">Video Pembelajaran</a></li>
+                <li><a href="https://www.umt6174.site/tryout-umt" target="_top">Tryout</a></li>
+                <li><a href="https://www.umt6174.site/tanya-umt" target="_top">TanyaUMT</a></li>
+                <li><a href="https://sites.google.com/view/banksoalumt6174/bank-soal-umt" target="_top">Bank Soal</a></li>
             </ul>
         </div>
         <div class="footer-section">
@@ -686,7 +686,7 @@ footer::before {
         
         function handleVideoClick(video) {
             // Langsung redirect ke halaman video tanpa pengecekan login
-            window.open(video.link, '_blank'); // Ganti '_blank' dengan '_self' jika ingin membuka di tab yang sama`.href = `${video.link}`;
+            window.open(video.link, '_top'); // Ganti "_top' dengan '_self' jika ingin membuka di tab yang sama`.href = `${video.link}`;
         }
         
         function filterVideos(filter) {
